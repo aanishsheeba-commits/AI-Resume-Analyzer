@@ -1,41 +1,52 @@
-# Face Recognition Attendance System
+# AI Resume Analyzer
 
-A Python-based Face Recognition Attendance System that automates attendance marking using computer vision techniques. The system captures facial images, trains an LBPH face recognition model, identifies registered users in real time, and stores attendance records in an SQLite database.
+An AI-powered Resume Analyzer developed using Python and Flask that helps evaluate resumes by extracting text from PDF files, identifying technical skills, and generating a resume score based on predefined skill matching criteria.
 
 ## Features
 
-* Face Registration
-* Face Dataset Creation
-* LBPH Face Recognition
-* Real-Time Face Detection using OpenCV
-* Automated Attendance Marking
-* SQLite Database Integration
-* Duplicate Attendance Prevention
-* Attendance Record Viewing
+* Upload Resume in PDF Format
+* Automatic Text Extraction
+* Technical Skill Detection
+* Resume Score Generation
+* User-Friendly Web Interface
+* Real-Time Resume Analysis
 
 ## Technologies Used
 
 * Python
-* OpenCV
-* SQLite
-* NumPy
-* Pillow (PIL)
+* Flask
+* PyPDF2
+* Pandas
+* HTML
+* CSS
 
 ## Project Workflow
 
-1. Register student face images.
-2. Train the face recognition model.
-3. Detect and recognize faces through webcam.
-4. Automatically mark attendance.
-5. Store attendance records with date and time in SQLite database.
+1. Upload a PDF resume.
+2. Extract text from the uploaded document.
+3. Analyze resume content for predefined technical skills.
+4. Calculate a resume score based on detected skills.
+5. Display the score and identified skills to the user.
+
+## Skills Evaluated
+
+* Python
+* SQL
+* MySQL
+* Flask
+* OpenCV
+* Git
+* Machine Learning
 
 ## Future Enhancements
 
-* GUI using Tkinter
-* Export attendance to Excel/CSV
-* Multi-user attendance dashboard
-* Cloud database integration
+* AI-Based Resume Recommendations
+* Job Description Matching
+* Missing Skill Suggestions
+* Resume Improvement Tips
+* Advanced NLP-Based Analysis
+* ATS Compatibility Scoring
 
 ## Author
 
-Anish Sheeba
+Sheeba
